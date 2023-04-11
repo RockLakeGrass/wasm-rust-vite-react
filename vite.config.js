@@ -8,4 +8,7 @@ export default defineConfig({
     ViteRsw(),
     react()
   ],
+  server: {
+    port: 3000
+  }
 })
