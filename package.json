@@ -6,8 +6,7 @@
   "scripts": {
     "dev": "concurrently \"rsw watch\" \"vite\" --kill-others",
     "build": "rsw build && vite build",
-    "build:wasm": "rsw build",
-    "preview": "vite preview"
+    "build:wasm": "rsw build"
   },
   "dependencies": {
     "react": "^18.2.0",
